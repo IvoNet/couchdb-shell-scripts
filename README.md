@@ -29,3 +29,7 @@ Script for easily creating users.
 Users are created without any ROLES. 
 You can later add these through the console.
 
+
+## create-database.sh
+
+Creates a database.
