@@ -30,6 +30,7 @@ This script does not make use of the cookie functionality mentioned above.
 
 Well checks if cookies.txt already exists and if so only calls settings.sh 
 otherwise it will also call cookie-authentication.sh 
+Now with re-login option with no as default
 
 ## settings.sh
 
@@ -58,5 +59,11 @@ You can later add these through the console.
 ## create-database.sh
 
 Creates databases.
+
+
+## execute.sh
+
+executes a command of your choice.
+
 
 
