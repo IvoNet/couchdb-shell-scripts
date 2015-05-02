@@ -3,7 +3,7 @@ source ./settings.sh
 echo "CouchDB login:"
 read    -p "Username: " USER
 read -s -p "Password: " PASSWORD
-
+echo
 USRPWD='name='$USER'&password='$PASSWORD
 
 #use -vX for mor info
