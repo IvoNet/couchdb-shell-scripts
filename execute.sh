@@ -21,7 +21,7 @@ read    -p "Command as relative url                : " COMMAND
 echo
 curl --cookie cookies.txt --user-agent Mozilla/4.0 -X $METHOD $COUCHDB/$COMMAND
 
-read -p "Another command (y/n)? " CONT
+read -p "Another command (Y/n)? " CONT
 if [ "$CONT" == "n" ]; then
   exit 0;
 fi
