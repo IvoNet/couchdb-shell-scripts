@@ -9,7 +9,7 @@ echo "First login to CouchDB as an admin..."
 read    -p "Admin Username: " ADMIN
 read -s -p "Admin Password: " ADMPWD
 echo
-COUCH=http://$ADMIN:$ADMPWD@localhost:5984
+HOST=http://$ADMIN:$ADMPWD@localhost:5984
 
 curl -X PUT $HOST/_config/httpd/enable_cors -d '"true"'
 curl -X PUT $HOST/_config/cors/origins -d '"*"'
